@@ -4,10 +4,14 @@ body{
 }
 .navbar{
     padding: 16px 7%; 
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     background: #D9D9D9;
+    z-index: 9999;
 }
 .navbar a{
     font-family: "Poppins";
@@ -28,7 +32,7 @@ body{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-  
+    margin-top: 50px;
     font-family: "Poppins";
     font-size: 40px;
     font-weight: 700;
@@ -39,6 +43,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container_tengah{
@@ -349,11 +354,9 @@ body{
         padding: 0;
     }
     .navbar{
-        padding: 16px 7%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #D9D9D9;
+        top: auto;
+        /* position: relative; */
+        bottom: 0;
     }
     .navbar a{
         font-family: "Poppins";
@@ -376,6 +379,7 @@ body{
         flex-direction: column;
         font-family: "Poppins";
         font-size: 32px;
+        margin-top: -10px;
     }
     .container{
         flex-direction: column;
@@ -387,12 +391,16 @@ body{
         /* background-color: #FF5573; */
     }
     .container_kiri{
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
+
+       
     }
     
     .kiri_bawah_kanan{
-        margin-left: -15px;
+        margin-left: -15px;/
     }
     
     .kiri_atas{
