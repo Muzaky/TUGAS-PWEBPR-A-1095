@@ -3,12 +3,10 @@ body{
     padding: 0;
 }
 .navbar{
-    width: 1280px;
-    height: 50px;
+    padding: 16px 7%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background: #D9D9D9;
 }
 .navbar a{
@@ -22,12 +20,10 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 119px;
     text-decoration: none;
-
+    width: 119px;
 }
 .heading{
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -37,53 +33,40 @@ body{
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
-    
 }
 
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
 }
 
 .container_tengah{
     display: flex;
-    /* background-color: bisque ; */
     width: 1018px;
     height: 653px;
-    display: flex;
+    /* background-color: #000000; */
+    
+    
 }
 .container_kiri{
     display: flex;
     width: 50%;
     height: 100%;
     flex-direction: column;
-    /* background-color: #000; */
 }
 
 
-.kiri_atas{
+.kiri_atas{ 
     width: 490px;
     height: 210px;
     margin-bottom: 20px;
-    /* background: #000; */
 }
 .kiri_bawah{
     display: flex;
     width: 490px;
-    height: 392px;
-    /* background: #000; */
+    height: 392px; 
 }
-
-/* .kiri_bawah_kiri{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    background: #000;
-} */
-
 .tentara{
     display: flex;
     background-color: #D5FFDD;
@@ -92,8 +75,6 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     font-family: "Poppins";
-    
-    
 }
 
 .tentara img{
@@ -112,15 +93,15 @@ body{
 .tentara p2{
     font-weight: 400;
     font-size: 14px;
-}
+} 
 
 .tentara button{
     display: flex;
     margin-top :40px;
     height: 37px;
     width: 240px;
-    background-color: #399349;
-    border-radius: 15px;
+    background-color: #399349; 
+     border-radius: 15px;
     border: 0;
     justify-content: center;
     align-items: center;
@@ -136,8 +117,8 @@ body{
     display: flex;
     background-color: #fff4dc;
     width: 235px;
-    height: 180px;
-    border-radius: 20px;
+    height: 180px; 
+     border-radius: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -228,6 +209,8 @@ body{
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
+    flex-wrap: wrap;
+    width: 120px;
 }
 
 .fotografer button{
@@ -252,7 +235,6 @@ body{
     height: 100%;
     flex-direction: column;
     justify-content: right;
-    /* background: #000; */
 }
 
 .kanan_atas{
@@ -276,7 +258,6 @@ body{
     height: 96px;
     background: #fff;
     align-items: center;
-    
 }
 
 .pilot , .ilmuan{
@@ -323,7 +304,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .pembalap img, .astronout img{
@@ -332,13 +312,11 @@ body{
 }
 .pembalap{
     display: flex;
-    /* background-color: #000000;  */
 }
 
 .astronout{
     display: flex;
     margin-left: 10px;
-    /* background-color: #000000; */
 }
 
 .pembalap p,.astronout p{
@@ -364,7 +342,320 @@ body{
 }
 
 
+@media (min-width: 320px) and (max-width: 425px){
 
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        padding: 16px 7%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D9D9D9;
+    }
+    .navbar a{
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 119px;
+        text-decoration: none;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        font-family: "Poppins";
+        font-size: 32px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container_tengah{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        /* background-color: #FF5573; */
+    }
+    .container_kiri{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .kiri_bawah_kanan{
+        margin-left: -15px;
+    }
+    
+    .kiri_atas{
+        display: flex;
+        justify-content: center;
 
+    }
+    .tentara{
+        display: flex;
+        background-color: #D5FFDD;
+        width: 289px;
+        height: 299px;
+        border-radius: 20px;
+        margin-top: 50px;
+        font-family: "Poppins";
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tentara img{
+        margin-top: -48px;
+        height: 230px;
+        width: 230px;
+    }
+    .tentara p{
+        font-weight: 500;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+        margin-top: 45px;
+      
+    }
+    .tentara p2{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .tentara button{
+        display: flex;
+        height: 45.43px;
+        width: 212.41px;
+        background-color: #399349;
+        border-radius: 15px;
+        border: 0;
+        margin-top: -108px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "poppins";
+        color: white;
+    }
+    .kiri_bawah{
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .kuli{
+        margin-top: 30px;
+        display: flex;
+        background-color: #fff4dc;
+        width: 290px;
+        height: 221px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .kuli img{
+        width: 213.26px;
+        height: 208.72px;
+    }
+    
+    .kuli button{
+        border: 0;
+        background-color: #E29A00;
+        width: 212.41px;
+        height: 45.43px;
+        display: flex;
+        margin-top: -57px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "poppins";
+        color: white;
+    }
+    
+    .pramugari{
+        display: flex;
+        background-color: #FFCED7;
+        width: 289px;
+        height: 241.19px;
+        margin-top: 30px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .pramugari img{
+        width: 209.06px;
+        height: 226.53px;
+        margin-top: 6px;
+    }
+    
+    .pramugari button{
+        border: 0;
+        background-color: #FF5573;
+        width: 212.75px;
+        height: 49.3px;
+        display: flex;
+        margin-top: -63px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "poppins";
+        color: white;
+    }
+    
+    .fotografer{
+        display: flex;
+        background-color: #E2F2FF;
+        width: 289px;
+        height: 299px;
+        border-radius: 20px;
+        margin-top: 100px;
+        font-family: "Poppins";
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .fotografer img{
+        width: 230px;
+        height: 230px;
+        margin-top: -130px;
+    }
+    
+    .fotografer p{
+        font-family: "Poppins";
+        font-size: 20px;
+        margin: 0;
+        margin-top: 28px;
+        font-weight: 500;
+        
+    }
+    .fotografer p2{
+        font-family: "Poppins";
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+        width: 150px;
+
+        text-wrap: wrap;
+        
+    }
+    
+    .fotografer button{
+        border: 0;
+        background-color: #3279AF;
+        width: 212.75px;
+        height: 49.3px;
+        display: flex;
+        margin-top: -120px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: "poppins";
+        color: white;
+        font-weight: 500;
+    }
+
+    .kanan_atas{
+        margin-top: 122%;
+        background: transparent;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }   
+
+  
+    .dokter, .pilot , .ilmuan ,.pembalap,.astronout{
+        display: flex;
+        background-color: #E9E8E2;
+        width: 289px;
+        height: 221px;
+        margin-top: 30px;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+        border: 0;
+    }
+
+    .pilot img, .dokter img, .ilmuan img, .pembalap img,.astronout img{
+        width: 213px;
+        height: 213px;
+        margin-left: -1px;
+        margin-top: 10px;
+    }
+    .pilot p, .dokter p, .ilmuan p, .pembalap p,.astronout p{
+        position: absolute;
+        font-size: 0px;
+        color: transparent;
+        width: 0px;
+        height: 0px;
+    }
+    .pilot button, .dokter button, .ilmuan button, .pembalap button,.astronout button {
+        border: 0;
+        background-color: #CAC8B3;
+        width: 212.41px;
+        height: 45.43px;
+        display: flex;
+        margin-top: -57px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "poppins";
+        color: white;
+    }
+    .kanan_bawah{
+        margin-top: -1.5%;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        padding-bottom: 75px;
+        flex-direction: column;
+    }
+
+    .pembalap{
+        margin-top: 38px;
+        background-color: #FFDBC5;
+    }
+    
+    .pembalap button{
+        background-color: #E36415;
+    }
+    
+    .astronout{
+        margin-left: 0;
+        background-color: #8FC5ED;
+    }
+
+    .astronout button{
+        background-color: #275E87;
+    }
+
+    
+    
+    
+
+  }
 
 
