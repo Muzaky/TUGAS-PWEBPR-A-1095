@@ -3,9 +3,8 @@ body{
     padding: 0;
 }
 .navbar{
-    width: 100%;
+    width: 1280px;
     height: 50px;
-    padding: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,14 +44,285 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     
 }
 
 .container_tengah{
-    background-color:bisque ;
+    display: flex;
+    /* background-color: bisque ; */
     width: 1018px;
     height: 653px;
+    display: flex;
 }
+.container_kiri{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    /* background-color: #000; */
+}
+
+
+.kiri_atas{
+    width: 490px;
+    height: 210px;
+    margin-bottom: 20px
+    
+}
+.kiri_bawah{
+    display: flex;
+    width: 490px;
+    height: 392px;
+}
+
+.kiri_bawah_kiri{
+    margin-top: 40pxz;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.kiri_bawah_kanan{
+    display: flex;
+}
+
+
+.tentara{
+    display: flex;
+    background-color: #D5FFDD;
+    width: 490px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-family: "Poppins";
+    
+    
+}
+
+.tentara img{
+    margin-top: -48px;
+    height: 230px;
+    width: 230px;
+}
+.tentara p{
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    margin-top:12px;
+}
+
+.tentara p2{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.tentara button{
+    display: flex;
+    margin-top :40px;
+    height: 37px;
+    width: 240px;
+    background-color: #399349;
+    border-radius: 15px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+  
+    font-family: "poppins";
+    color: white;
+}
+
+.kuli{
+    margin-top: 4px;
+    display: flex;
+    background-color: #fff4dc;
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kuli img{
+    width: 173.7px;
+    height: 170px;
+}
+
+.kuli button{
+    border: 0;
+    background-color: #E29A00;
+    width: 173px;
+    height: 37px;
+    display: flex;
+    margin-top: -45px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "poppins";
+    color: white;
+}
+
+.pramugari{
+    display: flex;
+    background-color: #FFCED7;
+    width: 235px;
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pramugari img{
+    width: 170px;
+    height: 170px;
+}
+
+.pramugari button{
+    border: 0;
+    background-color: #FF5573;
+    width: 173px;
+    height: 37px;
+    display: flex;
+    margin-top: -45px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "poppins";
+    color: white;
+}
+
+.fotografer{
+    margin-top: 4px;
+    display: flex;
+    background-color: #E2F2FF;
+    width: 230px;
+    height: 392px;
+    border-radius: 20px;
+    margin-left: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotografer img{
+    width: 160px;
+    height: 160px;
+}
+
+.fotografer p{
+    font-family: "Poppins";
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+.fotografer p2{
+    font-family: "Poppins";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fotografer button{
+    border: 0;
+    background-color: #3279AF;
+    width: 173px;
+    height: 37px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "poppins";
+    color: white;
+}
+
+.container_kanan{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.kanan_atas{
+    margin-top: 20px;
+    display: flex;
+    width: 500px;
+    height: 392px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kanan_bawah{
+    margin-top: 32px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    width: 500px;
+    height: 181px;
+}
+
+.dokter{
+    border-radius: 20px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    width: 423px;
+    height: 96px;
+    background: #fff;
+    align-items: center;
+    
+}
+
+.pilot , .ilmuan{
+    margin-top:20px;
+    border-radius: 20px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    width: 423px;
+    height: 96px;
+    background: #fff;
+    align-items: center;
+}
+
+.pilot img, .dokter img, .ilmuan img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+.pilot p, .dokter p, .ilmuan p{
+    font-family: "Poppins";
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.pilot button, .dokter button, .ilmuan button{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #D8D6C1;
+    margin-top: 5px;
+}
+
+
+
 
 
