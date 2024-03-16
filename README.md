@@ -1,0 +1,1 @@
+Pada hadis riwayat Muslim, Rasulullah bersabda bahwa orang-orang yang berbuat curang bukan berasal dari golongannya. “Siapa saja menipu (berbuat curang) maka dia bukan dari golonganku.” (HR Muslim). Hadis di atas menekankan bahwa segala bentuk kecurangan adalah perbuatan yang sangat tercela dan dosa besar.
